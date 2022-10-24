@@ -65,6 +65,7 @@
 		1B8AA2F3290706A5003249C1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				1BFA6278290405B7001040F4 /* KeyboardManagement */,
 				1B8AA2F4290706B8003249C1 /* Keychain.swift */,
 			);
 			path = Utils;
@@ -93,7 +94,6 @@
 				1BFA628529041E70001040F4 /* Features */,
 				1BFA628429041E51001040F4 /* CustomControls */,
 				1BFA6279290405C7001040F4 /* Extensions */,
-				1BFA6278290405B7001040F4 /* KeyboardManagement */,
 				1BFA62422903FE1B001040F4 /* LoginTestApp.swift */,
 				1BFA62462903FE1E001040F4 /* Assets.xcassets */,
 				1BFA627629040502001040F4 /* Colors.xcassets */,
