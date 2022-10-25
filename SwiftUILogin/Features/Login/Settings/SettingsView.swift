@@ -78,6 +78,7 @@ struct SettingsView: View {
             }
             .onChange(of: viewModel.connectionMethod) { _ in
                 viewModel.scanIfNeeded()
+                viewModel.verifyManualIP()
             }
         }
     }

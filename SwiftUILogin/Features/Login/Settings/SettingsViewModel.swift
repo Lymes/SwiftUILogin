@@ -13,7 +13,6 @@ enum ConnectionMethod: Int {
     case cloud
 }
 
-@MainActor
 final class SettingsViewModel: ObservableObject {
     
     // MARK: Publishers
@@ -79,9 +78,13 @@ final class SettingsViewModel: ObservableObject {
         manualIPInvalid = !regexText_1.evaluate(with: newValue)
     }
     
+    func verifyManualIP() {
+        manualIPInvalid = !verifyWholeIP(test: manualIPAddress)
+    }
+    
     // MARK: Private
     
-    private func verifyWholeIP(test: String) -> Bool {
+    func verifyWholeIP(test: String) -> Bool {
         let pattern_2 = "(25[0-5]|2[0-4]\\d|1\\d{2}|\\d{1,2})\\.(25[0-5]|2[0-4]\\d|1\\d{2}|\\d{1,2})\\.(25[0-5]|2[0-4]\\d|1\\d{2}|\\d{1,2})\\.(25[0-5]|2[0-4]\\d|1\\d{2}|\\d{1,2})"
         let regexText_2 = NSPredicate(format: "SELF MATCHES %@", pattern_2)
         let result_2 = regexText_2.evaluate(with: test)
