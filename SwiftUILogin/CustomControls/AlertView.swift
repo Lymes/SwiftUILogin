@@ -7,7 +7,6 @@
 
 import SwiftUI
 
-
 struct AlertView: View {
     @Environment(\.dismiss) var dismiss
 

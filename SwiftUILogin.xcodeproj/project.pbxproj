@@ -14,9 +14,7 @@
 		1BFA62452903FE1B001040F4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA62442903FE1B001040F4 /* LoginView.swift */; };
 		1BFA62472903FE1E001040F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFA62462903FE1E001040F4 /* Assets.xcassets */; };
 		1BFA624A2903FE1E001040F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFA62492903FE1E001040F4 /* Preview Assets.xcassets */; };
-		1BFA62732904023B001040F4 /* KeyboardAdaptive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA62702904023B001040F4 /* KeyboardAdaptive.swift */; };
 		1BFA62742904023B001040F4 /* UIResponder+Current.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA62712904023B001040F4 /* UIResponder+Current.swift */; };
-		1BFA62752904023B001040F4 /* KeyboardHeightPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA62722904023B001040F4 /* KeyboardHeightPublisher.swift */; };
 		1BFA627729040502001040F4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BFA627629040502001040F4 /* Colors.xcassets */; };
 		1BFA627B290405ED001040F4 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA627A290405ED001040F4 /* Color+Extensions.swift */; };
 		1BFA627D290407E0001040F4 /* SecureInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA627C290407E0001040F4 /* SecureInputView.swift */; };
@@ -26,6 +24,8 @@
 		1BFA628929041EAC001040F4 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA628829041EAC001040F4 /* SettingsViewModel.swift */; };
 		1BFA628B29041EC1001040F4 /* SettingsViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA628A29041EC1001040F4 /* SettingsViewModifiers.swift */; };
 		1BFA628D29046B10001040F4 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BFA628C29046B10001040F4 /* ActivityIndicator.swift */; };
+		781DFB6829090EFC009A4B05 /* Environment+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781DFB6729090EFC009A4B05 /* Environment+Extensions.swift */; };
+		781DFB6C290939CB009A4B05 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 781DFB6B290939CB009A4B05 /* UIApplication+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +37,7 @@
 		1BFA62442903FE1B001040F4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		1BFA62462903FE1E001040F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BFA62492903FE1E001040F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		1BFA62702904023B001040F4 /* KeyboardAdaptive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardAdaptive.swift; sourceTree = "<group>"; };
 		1BFA62712904023B001040F4 /* UIResponder+Current.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIResponder+Current.swift"; sourceTree = "<group>"; };
-		1BFA62722904023B001040F4 /* KeyboardHeightPublisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardHeightPublisher.swift; sourceTree = "<group>"; };
 		1BFA627629040502001040F4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		1BFA627A290405ED001040F4 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
 		1BFA627C290407E0001040F4 /* SecureInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecureInputView.swift; sourceTree = "<group>"; };
@@ -49,6 +47,8 @@
 		1BFA628829041EAC001040F4 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
 		1BFA628A29041EC1001040F4 /* SettingsViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModifiers.swift; sourceTree = "<group>"; };
 		1BFA628C29046B10001040F4 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		781DFB6729090EFC009A4B05 /* Environment+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environment+Extensions.swift"; sourceTree = "<group>"; };
+		781DFB6B290939CB009A4B05 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
 		783E02B52907C179007E5416 /* SwiftUILogin.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUILogin.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,7 +66,6 @@
 		1B8AA2F3290706A5003249C1 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				1BFA6278290405B7001040F4 /* KeyboardManagement */,
 				1B8AA2F4290706B8003249C1 /* Keychain.swift */,
 			);
 			path = Utils;
@@ -112,20 +111,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		1BFA6278290405B7001040F4 /* KeyboardManagement */ = {
-			isa = PBXGroup;
-			children = (
-				1BFA62702904023B001040F4 /* KeyboardAdaptive.swift */,
-				1BFA62722904023B001040F4 /* KeyboardHeightPublisher.swift */,
-			);
-			path = KeyboardManagement;
-			sourceTree = "<group>";
-		};
 		1BFA6279290405C7001040F4 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
 				1BFA62712904023B001040F4 /* UIResponder+Current.swift */,
 				1BFA627A290405ED001040F4 /* Color+Extensions.swift */,
+				781DFB6729090EFC009A4B05 /* Environment+Extensions.swift */,
+				781DFB6B290939CB009A4B05 /* UIApplication+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -248,15 +240,15 @@
 				1BFA627F2904086D001040F4 /* LoginViewModifiers.swift in Sources */,
 				1B8AA2F5290706B8003249C1 /* Keychain.swift in Sources */,
 				1BFA628D29046B10001040F4 /* ActivityIndicator.swift in Sources */,
-				1BFA62752904023B001040F4 /* KeyboardHeightPublisher.swift in Sources */,
 				1BFA627D290407E0001040F4 /* SecureInputView.swift in Sources */,
 				1BFA6283290412C1001040F4 /* SettingsView.swift in Sources */,
 				1BFA62742904023B001040F4 /* UIResponder+Current.swift in Sources */,
+				781DFB6C290939CB009A4B05 /* UIApplication+Extensions.swift in Sources */,
 				1B8AA2F029053995003249C1 /* AlertView.swift in Sources */,
-				1BFA62732904023B001040F4 /* KeyboardAdaptive.swift in Sources */,
 				1BFA628929041EAC001040F4 /* SettingsViewModel.swift in Sources */,
 				1BFA627B290405ED001040F4 /* Color+Extensions.swift in Sources */,
 				1BFA628129041156001040F4 /* LoginViewModel.swift in Sources */,
+				781DFB6829090EFC009A4B05 /* Environment+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,7 +305,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -367,7 +359,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
