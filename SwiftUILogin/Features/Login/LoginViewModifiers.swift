@@ -65,3 +65,18 @@ struct CheckboxStyle: ToggleStyle {
         .onTapGesture { configuration.isOn.toggle() }        
     }
 }
+
+struct IgnoreKeyboardAdaptive: ViewModifier {
+    func body(content: Content) -> some View {
+        GeometryReader { _ in
+            content
+        }
+        .ignoresSafeArea(.keyboard, edges: .bottom)
+    }
+}
+
+extension View {
+    func ignoreKeyboardAdaptive() -> some View {
+        ModifiedContent(content: self, modifier: IgnoreKeyboardAdaptive())
+    }
+}
