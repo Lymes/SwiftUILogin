@@ -12,8 +12,6 @@ final class LoginViewModel: ObservableObject {
     // MARK: Publishers
     @AppStorage("rememberMe")
     var rememberMe: Bool = false
-    @AppStorage("useBiometrics")
-    var useBiometrics: Bool = false
     @AppStorage("lastUsername")
     var username: String = ""
     
@@ -31,9 +29,7 @@ final class LoginViewModel: ObservableObject {
     init() {
         if rememberMe, let password = keychain[username] {
             self.password = password
-            if doLogin() {
-                postLogin()
-            }
+            loginTapped()
         }
     }
     
@@ -48,12 +44,6 @@ final class LoginViewModel: ObservableObject {
     }
     
     private func postLogin() {
-        if !useBiometrics {
-            alertContent = AlertViewModel(systemImage: "faceid", title: "Face ID", subtitle: "Do you want to use FaceID to access the next time?") {
-                self.useBiometrics = true
-                print("OK!")
-            }
-        }
         keychain[username] = self.rememberMe ? password : nil
     }
 }

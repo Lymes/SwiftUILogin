@@ -27,7 +27,7 @@ struct SettingsView: View {
                             .modifier(CloseButton())
                     }
                 }
-                .padding(20)
+                .padding(.trailing, 20)
                 Spacer()
             }
             VStack {
@@ -39,7 +39,7 @@ struct SettingsView: View {
                             .foregroundColor(viewModel.manualIPInvalid ? .red : Color.TextColorPrimary)
                             .padding()
                             .overlay(RoundedRectangle(cornerRadius: 10.0).strokeBorder(Color.TextColorSecondary, style: StrokeStyle(lineWidth: 1.0)))
-                            .keyboardType(.numberPad)
+                            .keyboardType(.numbersAndPunctuation)
                             .onChange(of: viewModel.manualIPAddress) {
                                 self.viewModel.validateIpAddress($0)
                             }
@@ -81,6 +81,7 @@ struct SettingsView: View {
                 viewModel.verifyManualIP()
             }
         }
+        .ignoreKeyboardAdaptive()
     }
 }
 
